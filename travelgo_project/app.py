@@ -14,7 +14,7 @@ REGION = "ap-south-1"
 # AWS SNS Client
 sns = boto3.client('sns', region_name=REGION)
 
-SNS_TOPIC_ARN = os.environ.get("SNS_TOPIC_ARN", "your-sns-topic-arn")
+SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:242201295398:travelgo_project"
 
 # ---------------- INITIALIZE DATABASE ----------------
 
@@ -415,4 +415,5 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=PORT,
         debug=True
+
     )
