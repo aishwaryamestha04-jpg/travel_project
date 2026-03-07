@@ -1,0 +1,9 @@
+flask
+flask-sqlalchemy
+boto3
+gunicorn
+gevent
+python-dotenv
+watchtower
+cryptography
+
